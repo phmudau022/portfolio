@@ -35,28 +35,36 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduated at Wethinkcode",
+    location: "Gauteng",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Wethinkcode Alumni.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Aws Devops",
+    location: "Remote",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Exlearn Technologies · Internship for only 3 months",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2024 - 2024",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Software Engineer",
+    location: "Remote",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "InternCareer · Internship for only 1 months as a android Development.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2024 - 2024",
+  },
+  {
+    title: "Volunteer Assistant",
+    location: "Wethinkcode",
+    description:
+      "I volunteered as a Bootcamp Assistant at WeThinkCode, providing guidance and information about the organization. In this role, I assisted participants by addressing their coding-related queries, contributing to their learning experience. It was fulfilling to share knowledge and support others in their learning journey. I am grateful for the opportunity to have made a positive impact during my time as a Bootcamp Assistant.",
+    icon: React.createElement(FaReact),
+    date: "2023 - 2023",
   },
 ] as const;
 
@@ -85,23 +93,23 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
+  "Linux",
+  "Android Development",
+  "Unit Testing",
+  "Agile Methodologies",
+  "Web Development",
+  "Mobile Applications",
+  "Pipelines",
+  "Docker",
+  "Firebase",
+  "React Native",
+  "SQL",
+  "Flutter",
+  "Java",
   "HTML",
   "CSS",
   "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
   "Python",
-  "Django",
-  "Framer Motion",
+  "Software Development",
+  "React",
 ] as const;
