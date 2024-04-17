@@ -1,13 +1,11 @@
 "use client";
 
-
 import React from "react";
 import SectionHeading from "./section-heading";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
-// import "react-vertical-timeline-component/style.min.css";
 import { experiencesData } from "@/lib/data";
 import { useTheme } from "@/context/theme-context";
 import { useSectionInView } from "@/lib/hooks";
@@ -17,19 +15,24 @@ export default function Experience() {
   const { theme } = useTheme();
 
   return (
-    <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
+    <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40 flex flex-col">
       <SectionHeading>My experience</SectionHeading>
-      <VerticalTimeline lineColor="">
+      <VerticalTimeline lineColor="" className="w-1/2 self-center">
         {experiencesData.map((item, index) => (
           <VerticalTimelineElement
             key={index}
-            className={index % 2 === 0 ? "vertical-timeline-element--left" : "vertical-timeline-element--right"}
+            className={index % 2 === 0 ? "vertical-timeline-element--left rounded-lg" : "rounded-lg vertical-timeline-element--right"}
             contentStyle={{
               background: theme === "light" ? "#f3f4f6" : "rgba(255, 255, 255, 0.05)",
               boxShadow: "none",
               border: "1px solid rgba(0, 0, 0, 0.05)",
               textAlign: "left",
               padding: "1.3rem 2rem",
+              borderRadius: '10px',
+              display: "flex", // Add display flex
+              flexDirection: "column", // Align children vertically
+              justifyContent: "center", // Align children horizontally
+              alignItems: "center", // Align children vertically
             }}
             contentArrowStyle={{
               borderRight:
