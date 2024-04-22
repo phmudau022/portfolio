@@ -32,12 +32,12 @@ export default function About() {
         </span>
         . I am also familiar with TypeScript and Flutter. I am always looking to
         learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
+        <span className="font-medium">full-time or Part-time position</span> as a software
         developer.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
+        <span className="italic">When I&apos;m not coding</span>, I enjoy playing
         video games, watching movies. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning about{" "}
