@@ -41,7 +41,7 @@ export const experiencesData = [
     title: "Graduated at Wethinkcode",
     location: "Gauteng",
     description:
-      "Wethinkcode Alumni.",
+    "Wethinkcode Alumni. Being a student at Wethinkcode had a profoundly positive impact on my life. It provided me with valuable skills, knowledge, and opportunities that have shaped my career and personal growth.",
     icon: React.createElement(LuGraduationCap),
     date: "2024",
   },
@@ -49,7 +49,7 @@ export const experiencesData = [
     title: "Aws Devops",
     location: "Remote",
     description:
-      "Exlearn Technologies · Internship for only 3 months",
+    "Exlearn Technologies · Internship for only 3 months. This was an internship at Exlearn Technologies, focusing on AWS DevOps practices. During the three-month duration, I gained hands-on experience with various AWS services and learned about DevOps principles and tools.",
     icon: React.createElement(CgWorkAlt),
     date: "2024 - 2024",
   },
@@ -57,12 +57,12 @@ export const experiencesData = [
     title: "Software Engineer",
     location: "Remote",
     description:
-      "InternCareer · Internship for only 1 months as a android Development.",
+    "InternCareer · Internship for only 1 month as an Android Development. This internship at InternCareer lasted for one month and primarily involved Android development. During this short period, I worked on Android projects, gaining valuable experience in mobile app development and honing my skills as a software engineer.",
     icon: React.createElement(CgWorkAlt),
     date: "2024 - 2024",
   },
   {
-    title: "Volunteer Assistant",
+    title: "Bootcamp Volunteer Assistant",
     location: "Wethinkcode",
     description:
       "I volunteered as a Bootcamp Assistant at WeThinkCode, providing guidance and information about the organization. In this role, I assisted participants by addressing their coding-related queries, contributing to their learning experience. It was fulfilling to share knowledge and support others in their learning journey. I am grateful for the opportunity to have made a positive impact during my time as a Bootcamp Assistant.",
